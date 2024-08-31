@@ -1,16 +1,16 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.8">
   <diagram name="Page-1" id="D2GHbYCgjAUrTUtrcCe5">
-    <mxGraphModel dx="1060" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="867" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="att3FbtHmocYUFxoqvQi-1" value="Intake Direction" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="att3FbtHmocYUFxoqvQi-2" value="Optical Sensor Detects" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="att3FbtHmocYUFxoqvQi-2" value="Optical Sensor Detects Ring" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="485" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="att3FbtHmocYUFxoqvQi-3" value="&lt;div&gt;Distance Sensor Dectects Ring&lt;/div&gt;&lt;div&gt;RC++&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="att3FbtHmocYUFxoqvQi-3" value="&lt;div&gt;Distance Sensor Detects Ring&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="245" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="att3FbtHmocYUFxoqvQi-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="att3FbtHmocYUFxoqvQi-1" target="att3FbtHmocYUFxoqvQi-3" edge="1">
@@ -63,7 +63,7 @@
         <mxCell id="att3FbtHmocYUFxoqvQi-12" value="&lt;div&gt;Adds Blue&lt;/div&gt;&lt;div&gt;ring_count++&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="290" width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iG2I1TWmn7zwKG068rrQ-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="att3FbtHmocYUFxoqvQi-13" target="iG2I1TWmn7zwKG068rrQ-27">
+        <mxCell id="iG2I1TWmn7zwKG068rrQ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="att3FbtHmocYUFxoqvQi-13" target="iG2I1TWmn7zwKG068rrQ-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="att3FbtHmocYUFxoqvQi-13" value="&lt;div&gt;Distance Sensors Detects Ring&lt;/div&gt;&lt;div&gt;ring_count--&lt;/div&gt;&lt;div&gt;ring_passed=T&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -113,10 +113,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iG2I1TWmn7zwKG068rrQ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="att3FbtHmocYUFxoqvQi-23" target="iG2I1TWmn7zwKG068rrQ-25">
+        <mxCell id="iG2I1TWmn7zwKG068rrQ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="att3FbtHmocYUFxoqvQi-23" target="iG2I1TWmn7zwKG068rrQ-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="att3FbtHmocYUFxoqvQi-23" value="&lt;div&gt;Removes Last Ring&lt;/div&gt;&lt;div&gt;ring_passed=T&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="att3FbtHmocYUFxoqvQi-23" value="&lt;div&gt;Removes Last Ring from Vector&lt;br&gt;&lt;/div&gt;&lt;div&gt;ring_passed=T&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="460" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iG2I1TWmn7zwKG068rrQ-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="att3FbtHmocYUFxoqvQi-10" target="iG2I1TWmn7zwKG068rrQ-33">
@@ -162,25 +162,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iG2I1TWmn7zwKG068rrQ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iG2I1TWmn7zwKG068rrQ-25" target="att3FbtHmocYUFxoqvQi-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="180" y="575" />
-              <mxPoint x="180" y="110" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="iG2I1TWmn7zwKG068rrQ-30" value="Ring Intaked" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iG2I1TWmn7zwKG068rrQ-29">
-          <mxGeometry x="-0.1484" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="iG2I1TWmn7zwKG068rrQ-25" value="Ring out of robot" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="270" y="547.5" width="70" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="iG2I1TWmn7zwKG068rrQ-27" value="Ring in Stage 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="512.5" y="550" width="65" height="65" as="geometry" />
-        </mxCell>
         <mxCell id="iG2I1TWmn7zwKG068rrQ-31" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="att3FbtHmocYUFxoqvQi-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="610" as="sourcePoint" />
@@ -190,8 +171,27 @@
         <mxCell id="iG2I1TWmn7zwKG068rrQ-33" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;ring_passed=F&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="345" width="90" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="iG2I1TWmn7zwKG068rrQ-34" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;ring_passed=F&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="275" width="90" height="45" as="geometry" />
+        <mxCell id="iG2I1TWmn7zwKG068rrQ-34" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;ring_passed=F&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;ring_count++&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iG2I1TWmn7zwKG068rrQ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iG2I1TWmn7zwKG068rrQ-35" target="att3FbtHmocYUFxoqvQi-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="582" />
+              <mxPoint x="190" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iG2I1TWmn7zwKG068rrQ-37" value="Ring Intaked" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iG2I1TWmn7zwKG068rrQ-36">
+          <mxGeometry x="-0.2457" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iG2I1TWmn7zwKG068rrQ-35" value="Ring out of Robot" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="560" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="iG2I1TWmn7zwKG068rrQ-38" value="Ring in Stage 2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="562.5" width="105" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
